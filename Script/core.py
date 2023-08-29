@@ -32,7 +32,7 @@ val_ds = tf.keras.preprocessing.image_dataset_from_directory(
     batch_size=16,
     color_mode='grayscale',
     seed=642,
-    labels='inferred',
+    labels='inferred'
 )
 
 #ResNet-18
